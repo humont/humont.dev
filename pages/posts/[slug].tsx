@@ -1,7 +1,12 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
+import Head from 'next/head';
+import ReactMarkdown from 'react-markdown';
+import MarkdownComponents from '../../components/MarkdownComponents';
 import { getAllPosts, getPostBySlug } from '../../lib/api';
-import markdownToHtml from '../../lib/mdToHtml';
-import { IPost } from '../../lib/type';
+
+export const config = {
+  unstable_runtimeJS: false,
+};
 
 interface Props {
   post: IPost;
@@ -9,31 +14,38 @@ interface Props {
 
 export default function Post({ post }: Props) {
   return (
-    <article>
-      <section dangerouslySetInnerHTML={{ __html: post.content }}></section>
-    </article>
+    <>
+      <Head>
+        <title>HuMont | {post.title}</title>
+      </Head>
+      <article>
+        <ReactMarkdown components={MarkdownComponents}>
+          {post.content}
+        </ReactMarkdown>
+      </article>
+      <style jsx>{`
+        article {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+      `}</style>
+    </>
   );
 }
 
 export const getStaticProps: GetStaticProps = async ({
   params,
 }): Promise<{ props: Props }> => {
-  const post: IPost = getPostBySlug(params.slug as string, [
+  const post: IPost = getPostBySlug(params?.slug as string, [
     'title',
     'date',
     'slug',
     'content',
-    'coverImage',
   ]);
-
-  const content = await markdownToHtml(post.content || '');
 
   return {
     props: {
-      post: {
-        ...post,
-        content,
-      },
+      post,
     },
   };
 };
