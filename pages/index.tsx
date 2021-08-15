@@ -12,67 +12,88 @@ export default function Home() {
       </Head>
       <article>
         <h1>About</h1>
-        <dl className=''>
-          <dt>Who:</dt>
-          <dd>Hugo</dd>
-          <dt>What:</dt>
-          <dd>Software developer, health & fitness enthusiast, avid reader</dd>
-          <dt>Where:</dt>
-          <dd>UK/EU</dd>
+        <p>
+          Hi, I'm Hugo, a <em>software developer</em> based in the <em>UK</em>.
+        </p>
+        <p>
+          I spent my 20's working in the fitness industry, and running my start
+          up high quality gourmet protein company in Hong Kong, then did an{' '}
+          <em>MSc in Advanced Computer Science</em> in 2018.
+        </p>
+        <p>
+          My MSc focus was on <em>distrubuted computing</em> and{' '}
+          <em>data privacy and ethics</em> (yes, that's a mix of technical and
+          theoretical).
+        </p>
+        <p>
+          Since then, I have been working mainly as a <em>web</em> based
+          developer, creating web apps and sites with{' '}
+          <em>payments infrastructures</em> (B2C and Marketplaces, proudcts and
+          subscriptions).
+        </p>
+        <br />
+        <h2>Stack</h2>
+        <dl>
+          <dt>Languages</dt>
+          <dd>
+            <ul>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>GraphQL</li>
+            </ul>
+          </dd>
+          <dt>Technologies</dt>
+          <dd>
+            <ul>
+              <li>Node</li>
+              <li>PostgreSQL</li>
+              <li>React</li>
+              <li>NextJS</li>
+              <li>Hasura</li>
+              <li>Apollo GraphQL</li>
+              <li>Dokku</li>
+              <li>Docker</li>
+            </ul>
+          </dd>
+          <dt>Services</dt>
+          <dd>
+            <ul>
+              <li>Stripe</li>
+              <li>Heroku</li>
+              <li>Netlify</li>
+            </ul>
+          </dd>
         </dl>
       </article>
 
-      <style jsx>
-        {`
-          article {
-          }
+      <style jsx>{`
+        em {
+          border-bottom: 1px solid black;
+        }
 
-          article h1 {
-            padding-bottom: 0.5rem;
-            margin-bottom: 0;
-            margin-top: 0;
-            padding-top: 0;
-            font-size: 2rem;
-            font-weight: lighter;
-          }
+        h2 {
+          font-size: 1.25rem;
+        }
 
-          article:nth-child(1n + 2) h1 {
-            padding-top: 3rem;
-          }
+        dl {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
 
-          @media screen and (min-width: 500px) {
-            article {
-              display: grid;
-              grid-template-columns: 20% 1fr;
-              position: relative;
-              padding-top: 2rem;
-              padding-bottom: 2rem;
-            }
-            article h1 {
-              position: sticky;
-              top: 0;
-              margin-top: 0;
-              padding-top: 0;
-              padding-right: 2rem;
-            }
+        dt {
+          font-weight: 800;
+        }
 
-            article:nth-child(1n + 2) h1 {
-              padding-top: 0rem;
-            }
-          }
-
-          dt {
-            font-weight: bold;
-          }
-          dt:nth-child(1n + 2) {
-            padding-top: 1rem;
-          }
-          dd {
-            margin-left: 0;
-            word-wrap: break-word;
-          }
-        `}
-      </style>
+        dd,
+        dt {
+          border-top: 1px solid black;
+          padding: 1rem 0;
+          margin: 0;
+        }
+      `}</style>
     </>
   );
 }

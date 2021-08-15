@@ -40,6 +40,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           font-family: 'Courier New', Courier, monospace;
           font-weight: 400;
           padding: 0;
+          padding-bottom: 10rem;
           margin: 0;
         }
 
@@ -83,6 +84,19 @@ function MyApp({ Component, pageProps }: AppProps) {
           border-radius: 5px;
           padding-left: 0.25rem;
           padding-right: 0.25rem;
+        }
+
+        blockquote {
+          background-color: var(--highlight-color);
+          padding: 0.25rem 1rem;
+          border-radius: 5px;
+          font-style: italic;
+        }
+
+        blockquote > p:last-child > a:last-child {
+          font-style: italic;
+          font-size: smaller;
+          opacity: 0.7;
         }
 
         .space-y > * + * {
