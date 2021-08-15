@@ -16,14 +16,14 @@ export default function Home() {
           Hi, I'm Hugo, a <em>software developer</em> based in the <em>UK</em>.
         </p>
         <p>
-          I spent my 20's working in the fitness industry, and running my start
-          up high quality gourmet protein company in Hong Kong, then did an{' '}
-          <em>MSc in Advanced Computer Science</em> in 2018.
+          I spent my 20's working in the fitness industry and running my start
+          up - high quality gourmet protein company in Hong Kong. In 2018 I
+          completed an <em>MSc in Advanced Computer Science</em>.
         </p>
         <p>
-          My MSc focus was on <em>distrubuted computing</em> and{' '}
-          <em>data privacy and ethics</em> (yes, that's a mix of technical and
-          theoretical).
+          My MSc focus was on <em>distrubuted computing</em>,{' '}
+          <em>data privacy</em> and <em>ethics</em> (yes, that's a mix of
+          technical and theoretical).
         </p>
         <p>
           Since then, I have been working mainly as a <em>web</em> based
