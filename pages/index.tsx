@@ -17,11 +17,11 @@ export default function Home() {
         </p>
         <p>
           I spent my 20's working in the fitness industry and running my start
-          up - high quality gourmet protein company in Hong Kong. In 2018 I
+          up - a high quality gourmet protein company in Hong Kong. In 2018 I
           completed an <em>MSc in Advanced Computer Science</em>.
         </p>
         <p>
-          My MSc focus was on <em>distrubuted computing</em>,{' '}
+          My MSc focus was on <em>distributed computing</em>,{' '}
           <em>data privacy</em> and <em>ethics</em> (yes, that's a mix of
           technical and theoretical).
         </p>
