@@ -38,6 +38,7 @@ export default function Home() {
           <dd>
             <ul>
               <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>Java</li>
