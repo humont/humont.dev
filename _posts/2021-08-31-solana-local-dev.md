@@ -1,6 +1,6 @@
 ---
 title: 'Local development for solana'
-date: '2020-08-31'
+date: '2021-08-31'
 category:
 ---
 
