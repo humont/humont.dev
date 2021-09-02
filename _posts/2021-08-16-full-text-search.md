@@ -1,6 +1,7 @@
 ---
 title: 'Full text search with Hasura'
 date: '2021-08-16'
+category: ['Databases', 'Dev']
 ---
 
 # Full text search with Hasura

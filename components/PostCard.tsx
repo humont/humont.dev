@@ -9,12 +9,28 @@ export const PostCard = ({ post }: Props) => {
     <>
       <article>
         <time>{post.date}</time>
-        <div>
+        <div className='title-container'>
           <h1>
             <Link href={`/posts/${post.slug}`}>
               <a>./{post.title}</a>
             </Link>
           </h1>
+          <div className='tags'>
+            {post.category?.map((c) => (
+              <span>
+                {c}
+                {c === 'Dev'
+                  ? ' 🔧'
+                  : c === 'Thoughts'
+                  ? ' 🧠'
+                  : c === 'Blockchain'
+                  ? ' 🌐'
+                  : c === 'Databases'
+                  ? ' 💾'
+                  : ''}
+              </span>
+            ))}
+          </div>
         </div>
       </article>
       <style jsx>{`
@@ -33,6 +49,21 @@ export const PostCard = ({ post }: Props) => {
           margin-top: 0.25rem;
           margin-right: 2rem;
           font-style: italic;
+        }
+
+        .title-container {
+          display: flex;
+          flex-flow: column;
+        }
+
+        .tags {
+          font-size: smaller;
+          font-style: italic;
+          opacity: 0.8;
+        }
+
+        .tags span:not(:last-child)::after {
+          content: ', ';
         }
       `}</style>
     </>

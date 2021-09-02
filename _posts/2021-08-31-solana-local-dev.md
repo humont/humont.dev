@@ -1,7 +1,7 @@
 ---
 title: 'Local development for solana'
 date: '2021-08-31'
-category:
+category: ['Blockchain', 'Dev']
 ---
 
 # Local development for solana

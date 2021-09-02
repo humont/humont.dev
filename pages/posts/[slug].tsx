@@ -28,6 +28,16 @@ export default function Post({ post }: Props) {
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
             Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
+
+        :global(img) {
+          max-width: 80%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          align-self: center;
+          padding-top: 1em;
+          padding-bottom: 1em;
+        }
       `}</style>
     </>
   );

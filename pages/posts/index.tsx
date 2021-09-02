@@ -28,7 +28,10 @@ export const PostsIndex = ({ allPosts }: Props) => {
 export const getStaticProps: GetStaticProps = async (): Promise<{
   props: Props;
 }> => {
-  const allPosts: IPost[] = getAllPosts(['title', 'date', 'slug'], true);
+  const allPosts: IPost[] = getAllPosts(
+    ['title', 'date', 'slug', 'category'],
+    true
+  );
 
   return {
     props: { allPosts },
