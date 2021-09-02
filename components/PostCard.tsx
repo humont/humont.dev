@@ -16,8 +16,8 @@ export const PostCard = ({ post }: Props) => {
             </Link>
           </h1>
           <div className='tags'>
-            {post.category?.map((c) => (
-              <span>
+            {post.category?.map((c, i) => (
+              <span key={`${post.slug}-${c}-${i}`}>
                 {c}
                 {c === 'Dev'
                   ? ' 🔧'
