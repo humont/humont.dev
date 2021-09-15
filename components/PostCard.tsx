@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { CategoryEmoji } from './CategoryEmoji';
 
 interface Props {
   post: IPost;
@@ -19,15 +20,7 @@ export const PostCard = ({ post }: Props) => {
             {post.category?.map((c, i) => (
               <span key={`${post.slug}-${c}-${i}`}>
                 {c}
-                {c === 'Dev'
-                  ? ' 🔧'
-                  : c === 'Thoughts'
-                  ? ' 🧠'
-                  : c === 'Blockchain'
-                  ? ' 🌐'
-                  : c === 'Databases'
-                  ? ' 💾'
-                  : ''}
+                <CategoryEmoji category={c} />
               </span>
             ))}
           </div>
