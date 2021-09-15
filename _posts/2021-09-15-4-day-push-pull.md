@@ -26,8 +26,11 @@ Each workout has three sections:
 > Light: 12-15 (or 15+ if legs) reps.
 >
 > Pick a weight that allows you to hit the bottom end of the heavy range for an exercise. For the other sets, the weight depends on that first one:
+>
 > less than 100kg = -10kg/set
+>
 > less than 200kg = -20kg/set
+>
 > more than 200kg = -40kg/set
 >
 > When you reach the top rep range on the light set, increase the weight by 5-10kg
