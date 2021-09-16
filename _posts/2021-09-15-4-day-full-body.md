@@ -1,10 +1,10 @@
 ---
-title: '4 Day Push Pull'
+title: '4 Day Full Body'
 date: '2021-09-15'
 category: ['Exercise']
 ---
 
-# 4 Day Push Pull
+# 4 Day Full Body
 
 ## Reasons
 
@@ -13,6 +13,8 @@ Over the last couple years, my focus has moved away from exercising quite a bit,
 This program should serve that purpose!
 
 ## Design
+
+Each day is fullbody-ish... pairing upper body push with lowerbody pull, and upper body pull with lower body push.
 
 Each workout has three sections:
 
