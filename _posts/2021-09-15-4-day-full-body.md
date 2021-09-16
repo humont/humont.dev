@@ -47,20 +47,20 @@ I'll probably run this for 5 or so cycles.
 
 **Day 1**
 
-1. Over head press: @80kg, @70kg, @60kg
-2. Wide grip behind the neck press: 3x10-12
+1. Over head press: @80kg, @70kg, @60kg (180s)
+2. Wide grip behind the neck press: 3x10-12 (60s)
 
-superset (x2):
+superset (x2)(0s):
 
 3. Chest Fly: triple rest pause @15kg
 4. Nordic Back extensions: triple rest pause
 
 **Day 2**
 
-1. Front Squat: @110kg, @90kg, @70kg
-2. Rear foot elevated split squats: 3x10-12
+1. Front Squat: @110kg, @90kg, @70kg (180s)
+2. Rear foot elevated split squats: 3x10-12 (90s)
 
-superset (x2):
+superset (x2)(0s):
 
 3. Ring Row: Max reps
 4. Hammer curl: Max reps
@@ -68,20 +68,20 @@ superset (x2):
 
 **Day 3**
 
-1. Dips: @+40kg, @+20kg, @bw
-2. Weighted ring push ups: 3x10-12
+1. Dips: @+40kg, @+20kg, @bw (180s)
+2. Weighted ring push ups: 3x10-12 (60s)
 
-superset (x2):
+superset (x2)(0s):
 
 3. Nordic Hamstring Curls: triple rest pause
 4. Lateral raises: triple rest pause
 
 **Day 4**
 
-1. Single Arm pull up: @-7.5kg, @-17.5kg, regular pullup @bw
-2. Barbbell Row: 3x10-12
+1. Single Arm pull up: @-7.5kg, @-17.5kg, regular pullup @bw (180s)
+2. Barbbell Row: 3x10-12 (60s)
 
-superset (x2):
+superset (x2)(0s):
 
 3. Sissy Squat: xMax
 4. Hanging Leg Raise: xMax
