@@ -6,6 +6,11 @@ category: ['Exercise']
 
 # 4 Day Full Body
 
+> Review:
+> Ended up running this for 3 cycles instead of more - tweaked something in my shoulder, which made all the overhead work near impossible for a while.
+
+> Overall, it was a nice cycle and a nice change of pace - good to do some more volume in there for a bit, and I may bump it up again in november when i know i'll be in one place for a while!
+
 ## Reasons
 
 Over the last couple years, my focus has moved away from exercising quite a bit, and been spending most of my daily energy on programming and _other life stuff_. As a result of this, my programs have become quite low volume and low intensity - which I've compensated for by increasing the frequency. But every now and again, I want a _little_ more _oomph_!
