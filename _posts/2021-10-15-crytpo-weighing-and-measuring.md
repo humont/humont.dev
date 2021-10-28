@@ -1,6 +1,6 @@
 ---
 title: 'Why do I find blockchain so appealing: Measuring Value'
-date: 2021-10-15''
+date: '2021-10-15'
 category: ['Blockchain', 'Thoughts']
 ---
 

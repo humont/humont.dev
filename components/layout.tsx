@@ -16,6 +16,9 @@ export const Layout: FunctionComponent<{}> = (props) => {
           <Link href='/posts'>
             <a>./Posts</a>
           </Link>
+          <Link href='/rss/feed.xml'>
+            <a>RSS</a>
+          </Link>
         </nav>
       </header>
 

@@ -29,7 +29,13 @@ export const PostCard = ({ post }: Props) => {
       <style jsx>{`
         article {
           display: flex;
-          flex-flow: row;
+          flex-flow: column;
+        }
+
+        @media screen and (min-width: 800px) {
+          article {
+            flex-flow: row;
+          }
         }
 
         h1 {
@@ -42,11 +48,13 @@ export const PostCard = ({ post }: Props) => {
           margin-top: 0.25rem;
           margin-right: 2rem;
           font-style: italic;
+          white-space: nowrap;
         }
 
         .title-container {
           display: flex;
           flex-flow: column;
+          white-space: break-spaces;
         }
 
         .tags {
