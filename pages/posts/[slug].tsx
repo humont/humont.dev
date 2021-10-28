@@ -17,6 +17,13 @@ export default function Post({ post }: Props) {
     <>
       <Head>
         <title>HuMont | {post.title}</title>
+        <meta name='description' content={post.title} key='desc' />
+        <meta property='og:title' content={post.title} />
+        <meta property='og:description' content={post.title} />
+        <meta
+          property='og:image'
+          content='https://humont.dev/favicon-32x32.png'
+        />
       </Head>
       <article>
         <ReactMarkdown components={MarkdownComponents}>

@@ -1,0 +1,41 @@
+
+    <?xml version="1.0" encoding="UTF-8"?>
+   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     <!--We manually set the two URLs we know already-->
+     <url>
+       <loc>https://humont.dev</loc>
+     </url>
+     <url>
+       <loc>https://humont.dev/posts</loc>
+     </url>
+     
+       <url>
+           <loc>https://humont.dev/2021-08-01-hello-world</loc>
+       </url>
+     
+       <url>
+           <loc>https://humont.dev/2021-08-16-full-text-search</loc>
+       </url>
+     
+       <url>
+           <loc>https://humont.dev/2021-08-31-solana-local-dev</loc>
+       </url>
+     
+       <url>
+           <loc>https://humont.dev/2021-09-01-solana-programming-overview</loc>
+       </url>
+     
+       <url>
+           <loc>https://humont.dev/2021-09-15-4-day-full-body</loc>
+       </url>
+     
+       <url>
+           <loc>https://humont.dev/2021-10-15-crytpo-weighing-and-measuring</loc>
+       </url>
+     
+       <url>
+           <loc>https://humont.dev/2021-10-28-gov-api</loc>
+       </url>
+     
+   </urlset>
+    

@@ -31,8 +31,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       <style jsx global>{`
         :root {
           --bg-color: #f1f5f9;
-          --link-color: #db2777;
-          --link-color-hover: #831843;
+          --link-color: #93174e;
+          --link-color-hover: #ec4899;
           --font-color: #1e293b;
           --code-bg: #64748b;
           --highlight-color: #fefce8;
@@ -41,8 +41,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         @media (prefers-color-scheme: dark) {
           :root {
             --bg-color: #1e293b;
-            --link-color: #ec4899;
-            --link-color-hover: #fbcfe8;
+            --link-color: #fbcfe8;
+            --link-color-hover: #ec4899;
             --font-color: #f8fafc;
             --code-bg: #0f172a;
             --highlight-color: #713f12;
@@ -82,6 +82,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         }
 
         a {
+          font-weight: 400;
           color: var(--link-color);
         }
 

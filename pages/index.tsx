@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import { generateRssFeed } from '../lib/gen-rss';
+import { generateSiteMap } from '../lib/gen-site-map';
 
 export const config = {
   unstable_runtimeJS: false,
@@ -8,6 +9,7 @@ export const config = {
 
 export const getStaticProps: GetStaticProps = async () => {
   await generateRssFeed();
+  await generateSiteMap();
 
   return { props: {} };
 };
@@ -17,6 +19,20 @@ export default function Home() {
     <>
       <Head>
         <title>HuMont | About</title>
+        <meta
+          name='description'
+          content="Hi, I'm Hugo, a software developer based in the UK."
+          key='desc'
+        />
+        <meta property='og:title' content={'Humont.dev'} />
+        <meta
+          property='og:description'
+          content={"Hi, I'm Hugo, a software developer based in the UK."}
+        />
+        <meta
+          property='og:image'
+          content='https://humont.dev/favicon-32x32.png'
+        />
       </Head>
       <article>
         <h1>About</h1>

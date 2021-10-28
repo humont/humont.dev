@@ -16,6 +16,20 @@ export const PostsIndex = ({ allPosts }: Props) => {
     <>
       <Head>
         <title>HuMont | Posts</title>
+        <meta
+          name='description'
+          content="Humont's blog about tech and health"
+          key='desc'
+        />
+        <meta property='og:title' content={'Humont.dev'} />
+        <meta
+          property='og:description'
+          content={"Humont's blog about tech and health"}
+        />
+        <meta
+          property='og:image'
+          content='https://humont.dev/favicon-32x32.png'
+        />
       </Head>
       <article>
         <h1>Posts</h1>
