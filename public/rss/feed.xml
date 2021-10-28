@@ -4,7 +4,7 @@
         <title>Humont.Dev</title>
         <link>https://humont.dev</link>
         <description>Humont's blog about tech and health</description>
-        <lastBuildDate>Thu, 28 Oct 2021 12:32:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Oct 2021 12:49:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,13 +15,13 @@
         <copyright>All rights reserved 2021, humont.dev</copyright>
         <item>
             <title><![CDATA[A Useable API for Government]]></title>
-            <link>https://humont.dev/posts/0-2021-10-28-gov-api</link>
-            <guid>https://humont.dev/posts/0-2021-10-28-gov-api</guid>
+            <link>https://humont.dev/posts/2021-10-28-gov-api</link>
+            <guid>https://humont.dev/posts/2021-10-28-gov-api</guid>
             <pubDate>Thu, 28 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[A Useable API for Government]]></description>
             <content:encoded><![CDATA[<h1>A useable API for Government</h1>
 <blockquote>
-<p>Currently accessible @ <a href="gov-api.humont.dev">gov-api.humont.dev</a></p>
+<p>Currently accessible @ <a href="https://gov-api.humont.dev">gov-api.humont.dev</a></p>
 </blockquote>
 <h2>Background</h2>
 <p>For years now I've come back again and again to the problem of an informed citizenry. The internet seems to have largely demolished the fourth estates role in keeping citizens informed as to what is <em>actually</em> happening, whilst also creating new avenues for <em>misinformation</em> to spread. Yet we were promised the opposite: that the internet, the "information superhighway" as it was once called, would make it <em>easier</em> for people to remain informed, and <em>harder</em> for those wishing to mislead to actually do so.</p>
