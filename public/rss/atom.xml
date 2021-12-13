@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://humont.dev</id>
     <title>Humont.Dev</title>
-    <updated>2021-10-28T13:29:53.367Z</updated>
+    <updated>2021-12-13T18:13:02.235Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>humont</name>
@@ -15,6 +15,101 @@
     <logo>https://humont.dev/favicon.ico</logo>
     <icon>https://humont.dev/favicon.ico</icon>
     <rights>All rights reserved 2021, humont.dev</rights>
+    <entry>
+        <title type="html"><![CDATA[Three Circuits 2]]></title>
+        <id>https://humont.dev/posts/2021-11-09-three-circuits-2</id>
+        <link href="https://humont.dev/posts/2021-11-09-three-circuits-2"/>
+        <updated>2021-12-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Three Circuits 2]]></summary>
+        <content type="html"><![CDATA[<h1>Three Circuits 2</h1>
+<p>So this is a slight evolution of the <a href="/posts/2021-11-08-three-circuits">last set up</a> - with a little more volume checked in, and a clearly separation of focus on each session.</p>
+<p>The basic set up is:</p>
+<ol>
+<li>Strength day: Double progression method</li>
+<li>Bodybuilding Day: Tripple rest pause method (DC Style)</li>
+<li>Uni-lateral (balance) Day: Quality work</li>
+</ol>
+<h2>Day 1</h2>
+<ol>
+<li>Overhead Press: 3-5@80kg</li>
+<li>Pendlay Row: 3-5@100kg</li>
+<li>Front Squat: 3-5@110kg</li>
+<li>Standing Ab wheel roll out: 3-5 @medium band
+x3 rounds (45s between each exercise)</li>
+</ol>
+<h2>Day 2</h2>
+<ol>
+<li>Lateral raises</li>
+<li>DB Fly</li>
+<li>Parallette push up</li>
+<li>Neutral grip pull up</li>
+<li>Band Pull apart</li>
+<li>DB Curl</li>
+<li>Sissy Squat
+x1 rounds - continuous circuit</li>
+</ol>
+<h2>Day 3</h2>
+<ol>
+<li>Single arm KB Swing</li>
+<li>Rear foot elevated split squat</li>
+<li>Turkish Getup</li>
+</ol>
+]]></content>
+        <author>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </author>
+        <contributor>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three Circuits]]></title>
+        <id>https://humont.dev/posts/2021-11-08-three-circuits</id>
+        <link href="https://humont.dev/posts/2021-11-08-three-circuits"/>
+        <updated>2021-11-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Three Circuits]]></summary>
+        <content type="html"><![CDATA[<h1>Three Circuits</h1>
+<p>I've actually been doing this routine for a few weeks now, but I forgot to write about it (something about blogging not being second nature... yet!).</p>
+<p>It's a simple structure: 1 day on, 1 day off, ad nauseam. I'm also chucking in some long and slow cardio on off days - a 5km run with a friend. Each circuit is ran through three times, and the goal is to incrementally increase the reps across all three, until I hit my self prescribed rep ceiling, at which point I increase the weight.</p>
+<p>These seem to be taking between 25-35 minutes depending on how energetic i'm feeling.</p>
+<p>Quite simple. Quite straight forwards.</p>
+<h2>Day 1</h2>
+<ol>
+<li>Overhead Press: 3-5@80kg</li>
+<li>Pendlay Row: 3-5@100kg</li>
+<li>Front Squat: 3-5@110kg</li>
+<li>V-Ups: 15+ @bw</li>
+</ol>
+<h2>Day 2</h2>
+<ol>
+<li>Weighted Parrallet push up: 8-10@+25kg</li>
+<li>Pull up: 10-12 @bw</li>
+<li>Stiff leg deadlift: 12-14@100kg</li>
+<li>Standing Ab Wheel roll out: 3-5@purple band</li>
+</ol>
+<h2>Day 3</h2>
+<ol>
+<li>DB Curls: 6-8@15kg</li>
+<li>DB Skull crushers: 6-8@15kg</li>
+<li>Glute bridge/clam shell duo: 15,14,13,12....3,2,1</li>
+<li>Hardstyle Plank: 10 breaths</li>
+</ol>
+]]></content>
+        <author>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </author>
+        <contributor>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </contributor>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Useable API for Government]]></title>
         <id>https://humont.dev/posts/2021-10-28-gov-api</id>
