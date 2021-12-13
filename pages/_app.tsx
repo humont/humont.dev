@@ -55,6 +55,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           line-height: 2;
           letter-spacing: 1.2px;
           color: var(--font-color);
+          text-underline-offset: 1.5px;
         }
 
         body {
