@@ -26,4 +26,4 @@ These thoughts are still not fully formed, but here they are anyway:
 2. Secondary markets for traditional game content (e.g sell your skin from LoL).
 3. Meta-communities around games
    - e.g: gamers with NFTs chatting on their communication medium of choice, or coming together and creating derivative content/games based on their in-game assets
-   - This might even negate the first bullet point in the **UNLIKELY** section - as this creates defacto interoperability through composability.
+   - This might even negate the first bullet point in the **UNLIKELY** section - as this creates de facto interoperability through composability.
