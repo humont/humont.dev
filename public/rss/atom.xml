@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://humont.dev</id>
     <title>Humont.Dev</title>
-    <updated>2021-12-13T18:13:02.235Z</updated>
+    <updated>2021-12-14T20:15:33.266Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>humont</name>
@@ -15,6 +15,51 @@
     <logo>https://humont.dev/favicon.ico</logo>
     <icon>https://humont.dev/favicon.ico</icon>
     <rights>All rights reserved 2021, humont.dev</rights>
+    <entry>
+        <title type="html"><![CDATA[NFT Game asset ownership]]></title>
+        <id>https://humont.dev/posts/2021-12-14-NFT-game-asset-ownership</id>
+        <link href="https://humont.dev/posts/2021-12-14-NFT-game-asset-ownership"/>
+        <updated>2021-12-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[NFT Game asset ownership]]></summary>
+        <content type="html"><![CDATA[<h1>NFT Game Asset Ownership</h1>
+<p>One of the promises that NFT's seek to fulfils in the context of gaming - is ownership over in game content. I was thinking about this today as League Of Legends released some new skins, and I can't help but wonder what the implications of that are.</p>
+<p>Say i purchase a LoL in game skin as an NFT, and Riot bans me from playing LoL: i can do.... what? Are there other games that promise interoperability for that skin? Unlikely. Can i sell that skin on a secondary market and at least make some value back? Probably.</p>
+<p>These thoughts are still not fully formed, but here they are anyway:</p>
+<p><strong>What NFT's are UNLIKELY to unlock</strong></p>
+<ol>
+<li>
+<p>Game interoperability.</p>
+<ul>
+<li>The incentive for developers to actually implement interoperability seems low, at least at the start. There's a potential future where some developers hack user adoption by making their game compatible with existing game's NFTs, but i imagine that this would seriously limit the creativity that developers could express in their games.</li>
+</ul>
+</li>
+<li>
+<p>Being able to play a game if a developer decides to boot you from the platform.</p>
+</li>
+</ol>
+<p><strong>What NFT's are LIKELY to unlock</strong></p>
+<ol>
+<li>A new genre of games (e.g Axie Infinity and other NFT based games with their own tokenomics), with different funding models for the developers.</li>
+<li>Secondary markets for traditional game content (e.g sell your skin from LoL).</li>
+<li>Meta-communities around games
+<ul>
+<li>e.g: gamers with NFTs chatting on their communication medium of choice, or coming together and creating derivative content/games based on their in-game assets</li>
+<li>This might even negate the first bullet point in the <strong>UNLIKELY</strong> section - as this creates defacto interoperability through composability.</li>
+</ul>
+</li>
+</ol>
+]]></content>
+        <author>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </author>
+        <contributor>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </contributor>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Three Circuits 2]]></title>
         <id>https://humont.dev/posts/2021-11-09-three-circuits-2</id>
