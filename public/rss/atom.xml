@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://humont.dev</id>
     <title>Humont.Dev</title>
-    <updated>2021-12-14T20:15:33.266Z</updated>
+    <updated>2021-12-29T12:08:43.489Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>humont</name>
@@ -15,6 +15,83 @@
     <logo>https://humont.dev/favicon.ico</logo>
     <icon>https://humont.dev/favicon.ico</icon>
     <rights>All rights reserved 2021, humont.dev</rights>
+    <entry>
+        <title type="html"><![CDATA[Push/Pull/Legs - Strength and Circuits]]></title>
+        <id>https://humont.dev/posts/2021-12-29-strenght-and-circuits</id>
+        <link href="https://humont.dev/posts/2021-12-29-strenght-and-circuits"/>
+        <updated>2021-12-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Push/Pull/Legs - Strength and Circuits]]></summary>
+        <content type="html"><![CDATA[<h1>Push / Pull / Legs - Strength and Circuits</h1>
+<p>The last framework didn't last too long. Travel and Christmas and wanting a change of pace have all kicked in!</p>
+<p>However, I'd still like to progress on strength - but i also have some pains and niggles i need to address, as well as chucking in some more mobility work!</p>
+<p>The general idea is:</p>
+<ul>
+<li>Split the body into three sections: Upper body push; upper body pull; lower body.</li>
+<li>One strength piece using the approach from <a href="https://thibarmy.com/russian-strength-skill-the-workouts/">this article</a>, specifically: 5-10 sets of 1 rep, with a back off set of 3 reps. The progression is adding an extra single every workout until 10 singles are done. Then increasing the weight.
+<ul>
+<li>This is an approach i've used a lot in the past, with a lot of success!</li>
+</ul>
+</li>
+<li>One accessory movement for a second section
+<ul>
+<li>why do accessory work for a different section: because i want a full body approach (i'm only doing 3 stimulating workouts a week), So, for example, i'll do my leg accessory work on an upper body strength day.</li>
+</ul>
+</li>
+<li>A Circuit for the third section.
+<ul>
+<li>This is performed with 1 min rest between circuits, but no rest between exercises.</li>
+<li>I'm also using a pre-fatigue set up for upper body work (this is a strength of mine at the moment, so pre-fatigue tempers the weights used),</li>
+<li>and a post fatigue for lower body (Glutes in particular are a weakness at the moment) for added stimulus whilst still being able to use heavier loads.</li>
+</ul>
+</li>
+<li><a href="https://www.coastalfitnesshk.com/coastal-fitness/meet-the-team/ed-haynes/">Ed Haynes</a> mentioned that i may be lacking dedicated work on my lats - so I'm sticking in Kayak Rows</li>
+</ul>
+<p>So, here's what it looks like:</p>
+<h2>Day 1</h2>
+<ol>
+<li>Overhead Press: 5-10x1, 1x3</li>
+<li>Stiff Leg Deadlift: 3x10-12</li>
+</ol>
+<p>Circuit 2-3 rounds:</p>
+<ol start="3">
+<li>Kayak Rows: 10-15</li>
+<li>BB Row: 10-15</li>
+<li>Ab wheel roll outs: 3-5</li>
+</ol>
+<h2>Day 2</h2>
+<ol>
+<li>Front Squat: 5-10x1, 1x3</li>
+<li>Pull Up: 3x10-12</li>
+</ol>
+<p>Circuit 2-3 rounds:</p>
+<ol start="3">
+<li>DB Fly: 10-15</li>
+<li>Deficit Push up: 10-15</li>
+<li>DB Curl: 10-15</li>
+</ol>
+<h2>Day 3</h2>
+<ol>
+<li>Snatch Grip Power High Pull: 5-10x1, 1x3</li>
+<li>Glute Ham Raise: 3x10-12</li>
+</ol>
+<p>Circuit 2-3 rounds:</p>
+<ol start="3">
+<li>Rear Foot Elevated Split Squat: 10-15</li>
+<li>Single Leg Hip Thrust: 10-15</li>
+<li>DB Skull Crusher: 10-15</li>
+</ol>
+]]></content>
+        <author>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </author>
+        <contributor>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </contributor>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NFT Game asset ownership]]></title>
         <id>https://humont.dev/posts/2021-12-14-NFT-game-asset-ownership</id>
@@ -44,7 +121,7 @@
 <li>Meta-communities around games
 <ul>
 <li>e.g: gamers with NFTs chatting on their communication medium of choice, or coming together and creating derivative content/games based on their in-game assets</li>
-<li>This might even negate the first bullet point in the <strong>UNLIKELY</strong> section - as this creates defacto interoperability through composability.</li>
+<li>This might even negate the first bullet point in the <strong>UNLIKELY</strong> section - as this creates de facto interoperability through composability.</li>
 </ul>
 </li>
 </ol>
@@ -62,8 +139,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Three Circuits 2]]></title>
-        <id>https://humont.dev/posts/2021-11-09-three-circuits-2</id>
-        <link href="https://humont.dev/posts/2021-11-09-three-circuits-2"/>
+        <id>https://humont.dev/posts/2021-12-13-three-circuits-2</id>
+        <link href="https://humont.dev/posts/2021-12-13-three-circuits-2"/>
         <updated>2021-12-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Three Circuits 2]]></summary>
         <content type="html"><![CDATA[<h1>Three Circuits 2</h1>

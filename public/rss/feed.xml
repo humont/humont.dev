@@ -4,7 +4,7 @@
         <title>Humont.Dev</title>
         <link>https://humont.dev</link>
         <description>Humont's blog about tech and health</description>
-        <lastBuildDate>Tue, 14 Dec 2021 20:15:33 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Dec 2021 12:08:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,74 @@
             <link>https://humont.dev</link>
         </image>
         <copyright>All rights reserved 2021, humont.dev</copyright>
+        <item>
+            <title><![CDATA[Push/Pull/Legs - Strength and Circuits]]></title>
+            <link>https://humont.dev/posts/2021-12-29-strenght-and-circuits</link>
+            <guid>https://humont.dev/posts/2021-12-29-strenght-and-circuits</guid>
+            <pubDate>Wed, 29 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Push/Pull/Legs - Strength and Circuits]]></description>
+            <content:encoded><![CDATA[<h1>Push / Pull / Legs - Strength and Circuits</h1>
+<p>The last framework didn't last too long. Travel and Christmas and wanting a change of pace have all kicked in!</p>
+<p>However, I'd still like to progress on strength - but i also have some pains and niggles i need to address, as well as chucking in some more mobility work!</p>
+<p>The general idea is:</p>
+<ul>
+<li>Split the body into three sections: Upper body push; upper body pull; lower body.</li>
+<li>One strength piece using the approach from <a href="https://thibarmy.com/russian-strength-skill-the-workouts/">this article</a>, specifically: 5-10 sets of 1 rep, with a back off set of 3 reps. The progression is adding an extra single every workout until 10 singles are done. Then increasing the weight.
+<ul>
+<li>This is an approach i've used a lot in the past, with a lot of success!</li>
+</ul>
+</li>
+<li>One accessory movement for a second section
+<ul>
+<li>why do accessory work for a different section: because i want a full body approach (i'm only doing 3 stimulating workouts a week), So, for example, i'll do my leg accessory work on an upper body strength day.</li>
+</ul>
+</li>
+<li>A Circuit for the third section.
+<ul>
+<li>This is performed with 1 min rest between circuits, but no rest between exercises.</li>
+<li>I'm also using a pre-fatigue set up for upper body work (this is a strength of mine at the moment, so pre-fatigue tempers the weights used),</li>
+<li>and a post fatigue for lower body (Glutes in particular are a weakness at the moment) for added stimulus whilst still being able to use heavier loads.</li>
+</ul>
+</li>
+<li><a href="https://www.coastalfitnesshk.com/coastal-fitness/meet-the-team/ed-haynes/">Ed Haynes</a> mentioned that i may be lacking dedicated work on my lats - so I'm sticking in Kayak Rows</li>
+</ul>
+<p>So, here's what it looks like:</p>
+<h2>Day 1</h2>
+<ol>
+<li>Overhead Press: 5-10x1, 1x3</li>
+<li>Stiff Leg Deadlift: 3x10-12</li>
+</ol>
+<p>Circuit 2-3 rounds:</p>
+<ol start="3">
+<li>Kayak Rows: 10-15</li>
+<li>BB Row: 10-15</li>
+<li>Ab wheel roll outs: 3-5</li>
+</ol>
+<h2>Day 2</h2>
+<ol>
+<li>Front Squat: 5-10x1, 1x3</li>
+<li>Pull Up: 3x10-12</li>
+</ol>
+<p>Circuit 2-3 rounds:</p>
+<ol start="3">
+<li>DB Fly: 10-15</li>
+<li>Deficit Push up: 10-15</li>
+<li>DB Curl: 10-15</li>
+</ol>
+<h2>Day 3</h2>
+<ol>
+<li>Snatch Grip Power High Pull: 5-10x1, 1x3</li>
+<li>Glute Ham Raise: 3x10-12</li>
+</ol>
+<p>Circuit 2-3 rounds:</p>
+<ol start="3">
+<li>Rear Foot Elevated Split Squat: 10-15</li>
+<li>Single Leg Hip Thrust: 10-15</li>
+<li>DB Skull Crusher: 10-15</li>
+</ol>
+]]></content:encoded>
+            <author>hell@humont.dev (humont)</author>
+        </item>
         <item>
             <title><![CDATA[NFT Game asset ownership]]></title>
             <link>https://humont.dev/posts/2021-12-14-NFT-game-asset-ownership</link>
@@ -42,7 +110,7 @@
 <li>Meta-communities around games
 <ul>
 <li>e.g: gamers with NFTs chatting on their communication medium of choice, or coming together and creating derivative content/games based on their in-game assets</li>
-<li>This might even negate the first bullet point in the <strong>UNLIKELY</strong> section - as this creates defacto interoperability through composability.</li>
+<li>This might even negate the first bullet point in the <strong>UNLIKELY</strong> section - as this creates de facto interoperability through composability.</li>
 </ul>
 </li>
 </ol>
@@ -51,8 +119,8 @@
         </item>
         <item>
             <title><![CDATA[Three Circuits 2]]></title>
-            <link>https://humont.dev/posts/2021-11-09-three-circuits-2</link>
-            <guid>https://humont.dev/posts/2021-11-09-three-circuits-2</guid>
+            <link>https://humont.dev/posts/2021-12-13-three-circuits-2</link>
+            <guid>https://humont.dev/posts/2021-12-13-three-circuits-2</guid>
             <pubDate>Mon, 13 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Three Circuits 2]]></description>
             <content:encoded><![CDATA[<h1>Three Circuits 2</h1>
