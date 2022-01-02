@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://humont.dev</id>
     <title>Humont.Dev</title>
-    <updated>2021-12-29T12:08:43.489Z</updated>
+    <updated>2022-01-02T10:23:02.315Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>humont</name>
@@ -14,7 +14,7 @@
     <subtitle>Humont's blog about tech and health</subtitle>
     <logo>https://humont.dev/favicon.ico</logo>
     <icon>https://humont.dev/favicon.ico</icon>
-    <rights>All rights reserved 2021, humont.dev</rights>
+    <rights>All rights reserved 2022, humont.dev</rights>
     <entry>
         <title type="html"><![CDATA[Push/Pull/Legs - Strength and Circuits]]></title>
         <id>https://humont.dev/posts/2021-12-29-strenght-and-circuits</id>

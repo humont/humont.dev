@@ -38,7 +38,8 @@ export function getPostBySlug(slug: string, fields: Array<keyof IPost>): IPost {
 
 export function getAllPosts(
   fields: Array<keyof IPost> = [],
-  filterDrafts: boolean = true
+  filterDrafts: boolean = true,
+  type?: IPost['type']
 ): IPost[] {
   const slugs = getPostSlugs();
   const posts: IPost[] = slugs
@@ -46,6 +47,13 @@ export function getAllPosts(
     .filter((post) => {
       if (filterDrafts) {
         return !post.draft;
+      } else {
+        return true;
+      }
+    })
+    .filter((post) => {
+      if (!!type) {
+        return post.type === type;
       } else {
         return true;
       }

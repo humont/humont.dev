@@ -2,6 +2,7 @@
 title: 'NFT Game asset ownership'
 date: '2021-12-14'
 category: ['Blockchain']
+type: 'note'
 ---
 
 # NFT Game Asset Ownership

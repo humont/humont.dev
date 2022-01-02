@@ -13,8 +13,8 @@ export const Layout: FunctionComponent<{}> = (props) => {
           {/* <Link href='/projects'>
             <a>./Projects</a>
           </Link> */}
-          <Link href='/posts'>
-            <a>./Posts</a>
+          <Link href='/notes'>
+            <a>./Notes</a>
           </Link>
           <Link href='/rss/feed.xml'>
             <a>RSS</a>

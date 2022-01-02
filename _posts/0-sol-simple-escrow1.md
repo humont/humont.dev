@@ -3,6 +3,7 @@ title: 'Solana: A Simple Escrow Program'
 date: '000'
 category: ['Blockchain', 'Dev']
 draft: true
+type: 'note'
 ---
 
 # A simple escrow program

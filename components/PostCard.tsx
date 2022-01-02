@@ -12,7 +12,7 @@ export const PostCard = ({ post }: Props) => {
         <time>{post.date}</time>
         <div className='title-container'>
           <h1>
-            <Link href={`/posts/${post.slug}`}>
+            <Link href={`/notes/${post.slug}`}>
               <a>./{post.title}</a>
             </Link>
           </h1>

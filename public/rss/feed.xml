@@ -4,7 +4,7 @@
         <title>Humont.Dev</title>
         <link>https://humont.dev</link>
         <description>Humont's blog about tech and health</description>
-        <lastBuildDate>Wed, 29 Dec 2021 12:08:43 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Jan 2022 10:23:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -12,7 +12,7 @@
             <url>https://humont.dev/favicon.ico</url>
             <link>https://humont.dev</link>
         </image>
-        <copyright>All rights reserved 2021, humont.dev</copyright>
+        <copyright>All rights reserved 2022, humont.dev</copyright>
         <item>
             <title><![CDATA[Push/Pull/Legs - Strength and Circuits]]></title>
             <link>https://humont.dev/posts/2021-12-29-strenght-and-circuits</link>

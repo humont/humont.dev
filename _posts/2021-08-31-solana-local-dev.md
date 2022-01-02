@@ -2,6 +2,7 @@
 title: 'Local development for solana'
 date: '2021-08-31'
 category: ['Blockchain', 'Dev']
+type: 'note'
 ---
 
 # Local development for solana

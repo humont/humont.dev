@@ -2,6 +2,7 @@
 title: 'Solana Programming Model Overview'
 date: '2021-09-01'
 category: ['Blockchain', 'Dev']
+type: 'note'
 ---
 
 # Solana's Programming Model

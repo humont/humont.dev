@@ -2,6 +2,7 @@
 title: '4 Day Full Body'
 date: '2021-09-15'
 category: ['Exercise']
+type: 'note'
 ---
 
 # 4 Day Full Body

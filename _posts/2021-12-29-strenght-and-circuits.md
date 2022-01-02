@@ -2,6 +2,7 @@
 title: 'Push/Pull/Legs - Strength and Circuits'
 date: '2021-12-29'
 category: ['Exercise']
+type: 'note'
 ---
 
 # Push / Pull / Legs - Strength and Circuits

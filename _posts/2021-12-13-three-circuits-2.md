@@ -2,6 +2,7 @@
 title: 'Three Circuits 2'
 date: '2021-12-13'
 category: ['Exercise']
+type: 'note'
 ---
 
 # Three Circuits 2
