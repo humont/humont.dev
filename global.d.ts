@@ -7,5 +7,5 @@ declare interface IPost {
   content: string;
   category: Array<PostCategory>;
   draft?: boolean;
-  type: 'note' | 'essay';
+  type: 'note' | 'article';
 }

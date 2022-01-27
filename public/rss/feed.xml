@@ -4,7 +4,7 @@
         <title>Humont.Dev</title>
         <link>https://humont.dev</link>
         <description>Humont's blog about tech and health</description>
-        <lastBuildDate>Sun, 02 Jan 2022 10:23:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Jan 2022 18:27:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,82 @@
             <link>https://humont.dev</link>
         </image>
         <copyright>All rights reserved 2022, humont.dev</copyright>
+        <item>
+            <title><![CDATA[A List of Strength Training Methods]]></title>
+            <link>https://humont.dev/posts/2022-01-27-exercise-methods</link>
+            <guid>https://humont.dev/posts/2022-01-27-exercise-methods</guid>
+            <pubDate>Thu, 27 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A List of Strength Training Methods]]></description>
+            <content:encoded><![CDATA[<pre><code>Updates:
+2022-01-27: first published
+
+</code></pre>
+<h1>A List of Strength Training Methods</h1>
+<p>This is a living document cataloguing a variety of different training rep, set, and programming schemes I've liked and used over the years. The only requirements for inclusion are any combination of: i) it works; ii) I liked it.</p>
+<p>Some of these are progression schemes, others are just structures that i can use as a framework when i'm looking to "exercise" versus training for some specific goal.</p>
+<p>Because my bias leans towards strength training, most of the methods have a focus on increasing weight lifted.</p>
+<h2>Strength Methods</h2>
+<h3>HML - Heavy-Medium-Light</h3>
+<p>Heavy: 1-3 (or 3-5 if legs) reps.
+Medium: 5-7 (or 8-10 if legs) reps.
+Light: 12-15 (or 15+ if legs) reps.</p>
+<p>Pick a weight that allows you to hit the bottom end of the heavy range for an exercise. For the other sets, the weight depends on that first one:</p>
+<p>less than 100kg = -10kg/set
+less than 200kg = -20kg/set
+more than 200kg = -40kg/set</p>
+<p>When you reach the top rep range on the light set, increase the weight by 5-10kg</p>
+<h3>Strength Skill</h3>
+<p>I've ran this framework at least 6 times over the years, and found that it's especially good to rebuild a base strength after having been away from strength focused work for a long time. <a href="https://www.t-nation.com/workouts/russian-strength-skill-the-workouts/">Here's the link to the original article</a>.</p>
+<p>The Basic premise:</p>
+<ol>
+<li>Pick a weight that represents a solid "training max" (not a true 1RM, but about 90-95% of it).</li>
+<li>Start by doing 5 sets of 1 with that weight.</li>
+<li>Every session, add one set, until you reach 10 sets of 1.</li>
+<li>Repeat the cycle with a slightly heavier weight.</li>
+</ol>
+<p>I like to pick a weight i can solidly accelerate for at least the first 5 reps.</p>
+<h2>Bodybuilding Methods</h2>
+<h3>Rest Pause / DC Training</h3>
+<p>This is one I keep going back to, and the <a href="https://www.intensemuscle.com/forum/main-forums/the-dogg-pound/20286-updated-dc-training-newbies-read-this-first-and-then-ask-questions-later">post detailing the method</a> covers most of the questions around it and it's origins.</p>
+<p><strong>The basic gist:</strong></p>
+<ul>
+<li>3 mini sets, each separated by 10 deep breaths.</li>
+<li>Each mini set is to be taken to failure</li>
+<li>Each rep is performed with a 4 second eccentric (lowering) portion of the lift</li>
+<li>On the final failed rep, continue to attempt to move the weight for 5-10 seconds</li>
+<li>after the 3rd and final mini set, perform a loaded stretch for the targetted muscle group.</li>
+</ul>
+<p><strong>Concrete example:</strong>
+<em>Using the DB Bench Press</em></p>
+<ol>
+<li>1 set to failure with 4s eccentrics - 6 reps</li>
+<li>Attempt the 7th rep, but fail to complete it, but keep trying for 5-10s</li>
+<li>rest for 10 deep breaths.</li>
+<li>Repeat 2 more times (managing 4 and 2 reps on each set respectively)</li>
+<li>After, do a loaded chest stretch for 30-60s</li>
+<li>Count the total amount of succesful reps</li>
+</ol>
+<p><strong>Progression:</strong>
+Pick a rep target (e.g 16 cumulative reps over 3 sets), and keep repeating the exercise each session with teh same weight until you have reached it. Then increase the weight and start again.</p>
+]]></content:encoded>
+            <author>hell@humont.dev (humont)</author>
+        </item>
+        <item>
+            <title><![CDATA[Loot NFT Project]]></title>
+            <link>https://humont.dev/posts/2022-01-01-loot-project</link>
+            <guid>https://humont.dev/posts/2022-01-01-loot-project</guid>
+            <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Loot NFT Project]]></description>
+            <content:encoded><![CDATA[<h1>Loot Project</h1>
+<p><a href="https://www.lootproject.com/">loot Project</a> is an NFT project which randomly generates a list (bag) of gear (loot) and stores it on chain. There are a limited (2,540) amount of bags.</p>
+<p>The project launched with absolutely no details as to what people could do with their bags of loot, but quickly, owners started generating <a href="https://www.lootwatcher.com/">projects</a> around the loot NFTs, which any loot holder could participate in.</p>
+<h2>Ideas</h2>
+<p>There’s an interesting idea in here: a simple token with some metadata, which games can be created on top of. As it stands, the Loot Project has been adding it’s own little games on top of the first drop, but as the user generated projects show - <em>anyone</em> can create one! Imagine a card game where users buy (mint) a back of cards (NFTs) which can then be used to play any type of game built on top of it.</p>
+<p>An interesting spin, and one which doesn’t fall prey to the current cash-grab driven NFT world, is where the mint stays open, and anyone can generate a pack of cards for the same price for as long as the contract exists - people could generate art on top of those cards (and this art could be limited edition, fulfilling the current cultural desire for rewarding early adopters), as well as games.</p>
+<p>Loot meets Pokémon trading card game.</p>
+]]></content:encoded>
+            <author>hell@humont.dev (humont)</author>
+        </item>
         <item>
             <title><![CDATA[Push/Pull/Legs - Strength and Circuits]]></title>
             <link>https://humont.dev/posts/2021-12-29-strenght-and-circuits</link>

@@ -4,18 +4,18 @@ import { Posts } from '../../components/Posts';
 import Head from 'next/head';
 
 interface Props {
-  allEssays: IPost[];
+  allArticles: IPost[];
 }
 
 export const config = {
   unstable_runtimeJS: false,
 };
 
-export const EssaysIndex = ({ allEssays: allPosts }: Props) => {
+export const ArticlesIndex = ({ allArticles: allPosts }: Props) => {
   return (
     <>
       <Head>
-        <title>HuMont | Essays</title>
+        <title>HuMont | Articles</title>
         <meta
           name='description'
           content="Humont's blog about tech and health"
@@ -32,7 +32,7 @@ export const EssaysIndex = ({ allEssays: allPosts }: Props) => {
         />
       </Head>
       <article>
-        <h1>Essays</h1>
+        <h1>Articles</h1>
         <Posts posts={allPosts} />
       </article>
     </>
@@ -42,14 +42,15 @@ export const EssaysIndex = ({ allEssays: allPosts }: Props) => {
 export const getStaticProps: GetStaticProps = async (): Promise<{
   props: Props;
 }> => {
-  const allEssays: IPost[] = getAllPosts(
-    ['title', 'date', 'slug', 'category'],
-    true
+  const allArticles: IPost[] = getAllPosts(
+    ['title', 'date', 'slug', 'category', 'type'],
+    true,
+    'article'
   );
 
   return {
-    props: { allEssays: allEssays },
+    props: { allArticles: allArticles },
   };
 };
 
-export default EssaysIndex;
+export default ArticlesIndex;

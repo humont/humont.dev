@@ -16,6 +16,9 @@ export const Layout: FunctionComponent<{}> = (props) => {
           <Link href='/notes'>
             <a>./Notes</a>
           </Link>
+          <Link href='/articles'>
+            <a>./Articles</a>
+          </Link>
           <Link href='/rss/feed.xml'>
             <a>RSS</a>
           </Link>
