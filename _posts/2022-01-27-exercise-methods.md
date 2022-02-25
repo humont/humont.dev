@@ -9,7 +9,7 @@ type: 'article'
 
 Updates:
 2022-01-27: first published
-
+2022-02-25: added Fatigue Percentage Drops
 ```
 
 # A List of Strength Training Methods
@@ -50,6 +50,27 @@ The Basic premise:
 4. Repeat the cycle with a slightly heavier weight.
 
 I like to pick a weight i can solidly accelerate for at least the first 5 reps.
+
+### Reactive Training System's RPE - Fatigue Percentage Drops
+
+Used this method by Mike Tuchscherer a lot back in my earlier strength training days - and it was an awesome way to auto-regulate volume for performance. Use this primarily on primary strength lifts (bench press, squat, deadlift, etc... the big compound lifts). Here's an [article outlining the basic gist](https://articles.reactivetrainingsystems.com/2015/11/29/beginning-rts/).
+
+How to use:
+
+1. Pick an RPE (Rate of perceived exertion), and a rep range to use (usually 1-4 reps)
+2. Work up to a weight that matches the target RPE
+3. Select a percentage drop (the bigger this number, the higher the volume) - e.g: 5%
+4. Take that percentage off of the weight worked up to on step 2. (this drops both the weight, and, because you are not very fatigued yet, the RPE)
+5. Keep doing sets at that weight until the RPE reaches the target RPE again - that's you done.
+
+Practical example
+
+1. Target RPE 9 (1 more rep in reserve), with 2 reps, 5% fatigue drop
+2. Ramp up the weight in sets of 2 on the squat -> reach 2@160kg with RPE 9
+3. Drop 5% off of weight : 152kg
+4. Do sets of 2 reps. The first set might be an RPE of 7.
+5. Keep doing sets of 2 until the RPE reaches 9 again.
+6. This auto regulates the volume
 
 ---
 
