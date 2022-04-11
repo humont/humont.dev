@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://humont.dev</id>
     <title>Humont.Dev</title>
-    <updated>2022-02-25T12:31:35.335Z</updated>
+    <updated>2022-04-11T08:38:45.761Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>humont</name>
@@ -15,6 +15,59 @@
     <logo>https://humont.dev/favicon.ico</logo>
     <icon>https://humont.dev/favicon.ico</icon>
     <rights>All rights reserved 2022, humont.dev</rights>
+    <entry>
+        <title type="html"><![CDATA[Raspberry Pi - PoE+ Hat fans]]></title>
+        <id>https://humont.dev/posts/2022-04-11-poe-hat</id>
+        <link href="https://humont.dev/posts/2022-04-11-poe-hat"/>
+        <updated>2022-04-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Raspberry Pi - PoE+ Hat fans]]></summary>
+        <content type="html"><![CDATA[<h1>Raspberry Pi - PoE+ Hat fans</h1>
+<p>I've been tinkering around with my Raspberry Pi's recently, and since i've know got two, i thought it was time to get as lightly nicer set up! So, i bought a network switch, a multi-pi case, and a bunch of small (20cm) ethernet cables. In order to reduce cable clutter, I thought it could be neat to power the Pi's via Power over Ethernet, so I also bought a couple <a href="https://thepihut.com/products/raspberry-pi-poe-plus-hat">PoE+ Hats</a>.</p>
+<p>They're pretty easy to set up, but the second i booted up the Pi, the fans started spinning, and wouldn't stop... Was it running too hot?</p>
+<pre><code class="language-sh">$ vcgencmd measure_temp
+temp=49.5'C
+</code></pre>
+<p>hm.... That really shouldn't be causing the fans to spin. After a little digging, i found the settings:</p>
+<p>add these to your <code>/boot/config.txt</code>:</p>
+<pre><code>dtparam=poe_fan_temp0=65000
+dtparam=poe_fan_temp1=70000
+dtparam=poe_fan_temp2=75000
+dtparam=poe_fan_temp3=80000
+dtparam=poe_fan_temp0_hyst=2000
+dtparam=poe_fan_temp1_hyst=5000
+</code></pre>
+<p>Save, then reboot, and all should be well. Here's a little more detail on what those settings do (taken from <a href="https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README#L1646">Pi firmeware README</a>)</p>
+<pre><code>Params: poe_fan_temp0           Temperature (in millicelcius) at which the fan
+                                turns on (default 40000)
+        poe_fan_temp0_hyst      Temperature delta (in millicelcius) at which
+                                the fan turns off (default 2000)
+        poe_fan_temp1           Temperature (in millicelcius) at which the fan
+                                speeds up (default 45000)
+        poe_fan_temp1_hyst      Temperature delta (in millicelcius) at which
+                                the fan slows down (default 2000)
+        poe_fan_temp2           Temperature (in millicelcius) at which the fan
+                                speeds up (default 50000)
+        poe_fan_temp2_hyst      Temperature delta (in millicelcius) at which
+                                the fan slows down (default 2000)
+        poe_fan_temp3           Temperature (in millicelcius) at which the fan
+                                speeds up (default 55000)
+        poe_fan_temp3_hyst      Temperature delta (in millicelcius) at which
+                                the fan slows down (default 5000)
+        i2c                     Control the fan via Linux I2C drivers instead of
+                                the firmware.
+</code></pre>
+]]></content>
+        <author>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </author>
+        <contributor>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </contributor>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A List of Strength Training Methods]]></title>
         <id>https://humont.dev/posts/2022-01-27-exercise-methods</id>

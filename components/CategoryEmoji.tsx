@@ -17,6 +17,8 @@ export const CategoryEmoji = ({ category }: Props) => {
         ? '🏋️‍♀️'
         : category === 'Project'
         ? '🗂'
+        : category === 'Pi'
+        ? '👾'
         : ''}
     </>
   );
