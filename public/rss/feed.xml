@@ -4,7 +4,7 @@
         <title>Humont.Dev</title>
         <link>https://humont.dev</link>
         <description>Humont's blog about tech and health</description>
-        <lastBuildDate>Fri, 10 Jun 2022 10:38:53 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jun 2022 11:22:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -24,8 +24,10 @@
 <h2>Reasons</h2>
 <p>I've looked back at my logs for the last few years, and a recurring theme is not being able to tolerate volume due to life stressors/conditioning. This is an attempt to address that.</p>
 <h2>Framework</h2>
-<p>Progressions for days 1 &#x26; 2: ramp up the weight on each set.
-Progression for days 4-6: double progression method</p>
+<ul>
+<li>Progressions for days 1 &#x26; 2: ramp up the weight on each set. 120s rest between sets.</li>
+<li>Progression for days 4-6: double progression method. 60s rest between sets.</li>
+</ul>
 <h3>Day 1</h3>
 <ol>
 <li>Single Arm Pull up: 5 sets of 3</li>
