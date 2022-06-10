@@ -4,7 +4,7 @@
         <title>Humont.Dev</title>
         <link>https://humont.dev</link>
         <description>Humont's blog about tech and health</description>
-        <lastBuildDate>Mon, 11 Apr 2022 08:38:45 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jun 2022 10:38:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,64 @@
             <link>https://humont.dev</link>
         </image>
         <copyright>All rights reserved 2022, humont.dev</copyright>
+        <item>
+            <title><![CDATA[Two Strength, Three hypertrophy]]></title>
+            <link>https://humont.dev/posts/2022-05-10-2-strength-3-bb</link>
+            <guid>https://humont.dev/posts/2022-05-10-2-strength-3-bb</guid>
+            <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Two Strength, Three hypertrophy]]></description>
+            <content:encoded><![CDATA[<h1>Two Strength, Three hypertrophy</h1>
+<p>A simple program based loosely on Layne Norton's PHAT program (loosely in that it's inspired by the split, not the progression scheme).</p>
+<h2>Reasons</h2>
+<p>I've looked back at my logs for the last few years, and a recurring theme is not being able to tolerate volume due to life stressors/conditioning. This is an attempt to address that.</p>
+<h2>Framework</h2>
+<p>Progressions for days 1 &#x26; 2: ramp up the weight on each set.
+Progression for days 4-6: double progression method</p>
+<h3>Day 1</h3>
+<ol>
+<li>Single Arm Pull up: 5 sets of 3</li>
+<li>Pendlay Row: 5 sets of 6</li>
+<li>Overhead Press: 5 sets of 3</li>
+<li>Dips: 5 sets of 6</li>
+</ol>
+<h3>Day 2</h3>
+<ol>
+<li>Deadlift: 5 sets of 6</li>
+<li>Pistol Squats: 5 sets of 3</li>
+<li>Ab Wheel roll out: 5 sets of 3-5</li>
+</ol>
+<h3>Day 3</h3>
+<p>Rest</p>
+<h3>Day 4</h3>
+<ol>
+<li>Pull ups: 5 sets 7-10</li>
+<li>BB Row: 5 sets of 8-12</li>
+<li>BB Upright Row: 5 sets of 8-12</li>
+<li>Lateral raises: 5 sets of 8-12</li>
+<li>Arnold Press: 5 sets of 6-8</li>
+</ol>
+<h3>Day 5</h3>
+<ol>
+<li>Sissy Squat: 5 sets of 8-12</li>
+<li>Front Squats: 5 sets of 8-12</li>
+<li>Nordic Curls: 5 sets of 5-8</li>
+<li>Deficit RDL: 5 sets of 8-12</li>
+<li>Hanging Leg raises: 5 sets of 8-12</li>
+</ol>
+<h3>Day 6</h3>
+<ol>
+<li>DB Fly: 5 sets of 7-10</li>
+<li>Deficit Push ups: 5 sets of 8-12</li>
+<li>BB Curl: 3 sets of 8-12</li>
+<li>DB Skull crushers: 3 sets of 6-10</li>
+<li>DB Hammer curl: 3 sets of 8-12</li>
+<li>KB Overhead Extensions: 3 sets of 8-12</li>
+</ol>
+<h3>Day 7</h3>
+<p>Rest</p>
+]]></content:encoded>
+            <author>hell@humont.dev (humont)</author>
+        </item>
         <item>
             <title><![CDATA[Raspberry Pi - PoE+ Hat fans]]></title>
             <link>https://humont.dev/posts/2022-04-11-poe-hat</link>
