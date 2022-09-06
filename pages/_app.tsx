@@ -52,8 +52,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         html {
           font-size: 100%;
           background-color: var(--bg-color);
-          line-height: 2;
-          letter-spacing: 1.2px;
+          line-height: 1.6;
+          letter-spacing: 1.6px;
           color: var(--font-color);
           text-underline-offset: 1.5px;
         }
@@ -96,10 +96,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           overflow-x: scroll;
         }
 
-        pre > code {
-          width: 100%;
-        }
-
         code {
           display: inline-block;
           background-color: var(--code-bg);
@@ -107,6 +103,16 @@ function MyApp({ Component, pageProps }: AppProps) {
           border-radius: 5px;
           padding-left: 0.25rem;
           padding-right: 0.25rem;
+        }
+
+        pre > code {
+          width: 100%;
+        }
+
+        pre {
+          border-radius: 5px;
+          padding: 1rem;
+          background-color: var(--code-bg);
         }
 
         blockquote {

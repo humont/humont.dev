@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://humont.dev</id>
     <title>Humont.Dev</title>
-    <updated>2022-06-10T11:22:33.785Z</updated>
+    <updated>2022-09-06T15:05:37.968Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>humont</name>
@@ -15,6 +15,128 @@
     <logo>https://humont.dev/favicon.ico</logo>
     <icon>https://humont.dev/favicon.ico</icon>
     <rights>All rights reserved 2022, humont.dev</rights>
+    <entry>
+        <title type="html"><![CDATA[Plain Text Exercise Notation - a simple notation style for exercise recording]]></title>
+        <id>https://humont.dev/posts/2022-09-5-pten</id>
+        <link href="https://humont.dev/posts/2022-09-5-pten"/>
+        <updated>2022-09-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Plain Text Exercise Notation - a simple notation style for exercise recording]]></summary>
+        <content type="html"><![CDATA[<h1>Plain Text Exercise Notation</h1>
+<p>I've been recording my exercise/workout routines for 15 years now, and having a historical record of <em>what</em> I did and <em>when</em> has proven quite useful over the years for a few reasons:</p>
+<ol>
+<li>Knowing whether or not I'm progressing.</li>
+<li>Getting program inspiration from what I've done in the past.</li>
+<li>Seeing what's worked and in what context.</li>
+</ol>
+<p>On a few occasions, I've started using various apps to log my exercise. Without fail, I always stop using that app and revert back to just plain ol' text files, and I tend to forget to export my logs from the now abandoned app. This begs the question of why I ever use an app if I like text based logging so damned much? Well, an app provides me with a way of analysing my workouts over time, total sets per week, total sets per body part, average rest etc...</p>
+<p>So, how do I get that functionality without leaving my beloved text files? Some sort of parse-able format! I already log in a relatively structured way, but if I take the time to formalise it, and then stick to it, then I can write scripts to parse over my files (or even files within a directory) and run analysis on them!</p>
+<h2>Specification</h2>
+<p>A formal specification for exercise logging notation <strong>MUST</strong> be able to do the following:</p>
+<ol>
+<li>Show the order in which exercises were performed.</li>
+<li>Show the sets, reps, and weights/resistance/difficulty used.</li>
+<li>Show the tempo (often abbreviated to <code>30X0</code> or something of that kind - meaning 3 seconds eccentric, 0 second pause at bottom, explosive concentric, 0 second pause at the top).</li>
+<li>Show set style (rest-pause, extended sets, cluster sets etc...).</li>
+<li>Group exercises into circuits.</li>
+<li>Name sections of workouts.</li>
+<li>Handle non rep/sets/weights based exercises (e.g duration, distance, speed as variables).</li>
+<li>Show the duration of exercises or segments of exercises.</li>
+<li>Be easy to read.</li>
+<li>Be readable by a script.</li>
+</ol>
+<p>(10 requirements... that was lucky).</p>
+<h2>Examples</h2>
+<h3>Structure and Metadata</h3>
+<p>With regards to structuring workouts in text, we need some of the following traits:</p>
+<ol>
+<li>Program name</li>
+<li>Program metadata</li>
+<li>Workout name</li>
+<li>Workout metadata</li>
+</ol>
+<p>we can declare a program by using a markdown header symbol, and mark any metadata for the program directly below it by wrapping it in <code>---</code> three dashes:</p>
+<pre><code># My great new program
+---
+date: 04/04/2024
+notes: some notes about why I'm choosing to do this program
+---
+</code></pre>
+<p>we can declare a workout by using the double hash symbol (level 2 header in markdown), and again, any metadata can be marked below it.</p>
+<pre><code>## Workout 1
+---
+date: 13/04/2024
+notes: some interesting notes about the workout...
+---
+</code></pre>
+<h3>Exercise Declaration</h3>
+<p>An exercise is declared by giving it an order in the workout, naming it, and then detailing it.</p>
+<pre><code>A. Bench Press [20X0]: 3x10@100kg (60s)
+B. Pull ups: 3x10@bw (45s)
+C. Curls [Rest-pause]: 8+5+2@20kg
+</code></pre>
+<p>With regards to the syntax and meaning of the exercise declaration:</p>
+<ol>
+<li>the <code>A.</code> denotes the order in the workout the exercise is performed</li>
+<li>The name of the exercise</li>
+<li>the rep style declared in square brackets - this is a loose descriptor, so it can be a tempo (as in <code>[20X0]</code>) or a rep style (as in <code>[Rest-pause]</code> or <code>[extended-set]</code>)</li>
+<li>the sets and reps and weights: <code>2x10@10kg</code> denoting: 2 sets of 10 reps at 10 kilograms. If only one set is being completed, then the set declaration can be omitted (e.g: <code>10@10kg</code> meaning 1 set of 10 reps at 10 kilograms)</li>
+<li>the rest time between sets, declared in regular brackets.</li>
+</ol>
+<p>Here are some valid examples of how to declare exercises, reps, sets, effort etc..</p>
+<pre><code>A. Bench Press: 3x10@100kg, 12@90kg, 15@80kg (60s)
+</code></pre>
+<p>or the same can be written as :</p>
+<pre><code>A. Bench Press:
+    3x10@100kg (60s)
+    12@90kg (60s)
+    15@80kg (60s)
+</code></pre>
+<p>notice that on the one line declaration, the rest time is only declared at the end - making implicit that the same rest is being used between all sets, whereas on the multI line declaration, the rest time is declared after each line. Both approaches work, and the single rest time declaration can be used on the multiline rep declaration as well.</p>
+<p>A grouping of exercises (usually denoting a super-set, or a circuit) can be declared as:</p>
+<pre><code>A. Bench Press: 3x10@100kg (60s)
+-
+B1. Curl: 10@20kg
+B2. Extension: 20@20kg
+B3. Sit-ups: 20
+x2 (60s)
+-
+</code></pre>
+<p>Here we use the letter B to denote that it comes after exercise A, and then enumerate 1 through 3 for the sub order of the exercises. The sets of the tri-set or circuit are presented at the bottom <code>x2</code> with the rest between circuits as <code>(60s)</code>. Note that it is also possible to declare rest time between elements within a circuits, eg: <code>B2. Extension: 20@20kg (30s)</code>.</p>
+<p>It is sometimes useful to refer to a circuit by name (for example, certain 'Crossfit girls' workouts). The <code>-</code> at the start and end of the circuit segment allow us to encapsulate additional data.</p>
+<pre><code>-
+name: Mary
+result: 15 + 7
+
+C1. Handstand push-ups: 15x5, 1x7
+C2. 1-legged squats, alternating legs: 15x10
+C3. Pull ups: 15x15
+20mins
+-
+</code></pre>
+<p>This syntax highlights some interesting facts about the way groupings are interpreted. It is implicit in a grouping, that a set of an exercise is only repeated once all the other exercises in the grouping have been performed. For example, in the above grouping <code>15x5</code> does not imply that 15 sets of 5 reps of exercise <code>C1</code> were performed before moving on to <code>C2</code>, but rather that 15 sets were performed over all, in the prescribed order <code>C1 -> C2 -> C3</code>. The <code>1x7</code> on <code>C1</code> means that an additional set of 7 reps was performed for this one exercise. This further implies that it is not possible to log more sets for <code>C2</code> than for <code>C1</code>, nor is it possible to perform more than 1 extra set for <code>C1</code> than the other exercises in the grouping.</p>
+<h3>Rest between sets versus rest after sets.</h3>
+<p>The notation <code>A. Bench press: 3x10@100kg (60s)</code> states that 60s of rest was taken between each set of bench press. In the case that we wish to state that additional rest was taken between bench pressing and the subsequent exercise, especially where that rest is a feature of the workout, then ascribe it it's own letter, eg:</p>
+<pre><code>A. Bench press: 3x10@100kg (60s)
+B. (120s)
+C. Pull ups: 3x10@bw (60s)
+</code></pre>
+<h3>Exercise duration</h3>
+<p>The duration of an exercise, should we wish to track it, can be noted down inline and after the exercise, e.g:</p>
+<pre><code>A. Bench press: 3x10@100kg (60s) 4mins 27s
+</code></pre>
+<p>We've already seen this form of notation in the exercise grouping section, where the grouping titled <code>mary</code> was set to <code>20mins</code></p>
+]]></content>
+        <author>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </author>
+        <contributor>
+            <name>humont</name>
+            <email>hell@humont.dev</email>
+            <uri>https://humont.dev</uri>
+        </contributor>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Two Strength, Three hypertrophy]]></title>
         <id>https://humont.dev/posts/2022-05-10-2-strength-3-bb</id>
